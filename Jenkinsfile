@@ -2,7 +2,7 @@ node {
     def app
     
     // ========== REQUIRED CHANGES ========== //
-    def dockerhubUser = "your-dockerhub-username"  // 👈 REPLACE THIS
+    def dockerhubUser = "bilalamjaddev"  // 👈 REPLACE THIS
     def dockerImage = "${dockerhubUser}/1tierapp"  // 👈 Now includes username
     // ====================================== //
 

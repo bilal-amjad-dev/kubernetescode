@@ -2,7 +2,7 @@ node {
     def app
     
     // ========== ONLY CHANGE REQUIRED ========== //
-    def dockerImage = "your-dockerhub-username/test"  // 👈 REPLACE THIS LINE
+    def dockerImage = "your-dockerhub-username/1tierapp"  // 👈 REPLACE THIS LINE
     // ========================================= //
 
     stage('Clone repository') {
